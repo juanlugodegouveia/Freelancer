@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox - Freelancer</title>
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet"> <!--fuente copiado desde google fonts-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> <!--Codigo para importar los iconos que utilizamos-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav> <!--Menu de navegacion--> <!-- Contenedor del flexbox, es la clase padre-->
+      <a href="#">Inicio</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Clientes</a>
+      <a href="#">Contactos</a>
+    </nav> <!--Cierre menu de navegacion-->
+  </header>
+
+  <div class="hero">
+  <div class="contenedor-hero">
+    <h1>Diseño y Desarrollo Freelancer</h1>
+    <p> <i class="fas fa-map-marker-alt"> </i> Santiago De Chile, Santiago</p>
+    <a href="#" class="boton">Contactar</a>
+  </div> <!--Cierre contenedor hero-->
+</div> <!--Cierre hero-->
+
+<div class="servicios contenedor">
+
+<main class="servicios"> <!--Apertura main-->
+  <h2>Nuestros Servicios</h2>
+  <div class="contenedor-servicios"> <!--Apertura de  contenedor-servicios-->
+    <div class="servicio"> <!--Apertura de servicio-->
+      <h3>Diseño Web</h3>
+      <div class="iconos"> <!--Apertura de iconos-->
+        <i class="fas fa-pen-fancy"></i>
+      </div> <!--Cierre de iconos-->
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+    </div> <!--Cierre de servicio-->
+
+    <div class="servicio"> <!--Apertura de servicio-->
+      <h3>Aplicaciones Móviles</h3>
+      <div class="iconos"> <!--Apertura de iconos-->
+        <i class="fab fa-android"></i>
+        <i class="fab fa-apple"></i>
+      </div> <!--Cierre de iconos-->
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+    </div> <!--Cierre de servicio-->
+
+    <div class="servicio"> <!--Apertura de servicio-->
+      <h3>Social Media</h3>
+      <div class="iconos"> <!--Apertura de iconos-->
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+      </div> <!--Cierre de iconos-->
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+    </div> <!--Cierre de servicio-->
+  </div> <!--Cierre de  contenedor-servicios-->
+</main> <!--Cierre main-->
+
+<section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+  <form action="#">
+    <legend>Contactános llenando todos los campos</legend>
+
+    <div class="contenedor-campos">  <!--Apertura contenedor de campos-->
+    <div class="campos">
+      <label>Nombre:</label>
+      <input type="text" name="nombre" placeholder="Nombre">
+    </div>
+
+    <div class="campos">
+      <label>Teléfono:</label>
+      <input type="tel" name="teléfono" placeholder="teléfono">
+    </div>
+
+    <div class="campos w-100">
+      <label>Correo:</label>
+      <input type="mail" name="correo" placeholder="correo">
+    </div>
+
+    <div class="campos w-100">
+      <label>Mensaje:</label>
+      <textarea></textarea>
+    </div>
+  </div> <!--Cierre contenedor de campos-->
+
+  <div class="enviar">
+    <input type="submit" class="boton" value="Enviar">
+  </div>
+</form>  <!--Cierre del formulario-->
+</section>
+
+</div> <!--Cierre de servicios contenedor-->
+
+</body>
+</html>
