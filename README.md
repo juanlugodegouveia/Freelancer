@@ -1,8 +1,8 @@
 # Freelancer.
 
-Diseño de plantilla Web para Freelancer, manejando los estilos con flexbox.
+Web template design for a Freelancer, managing styles with flexbox.
 
-Vista Previa: https://juanlugodegouveia.github.io/Freelancer/.
+Preview: https://juanlugodegouveia.github.io/Freelancer/.
 
 ## Copyright
 
